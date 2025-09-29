@@ -1,4 +1,6 @@
-# EXP-NO-3 Histogram-of-an-images
+# NAME: YOGESHWARAN.A
+# REG NO: 212223040249
+# EXP-2 Histogram-of-an-images
 ## Aim
 To obtain a histogram for finding the frequency of pixels in an Image with pixel values ranging from 0 to 255. Also write the code using OpenCV to perform histogram equalization.
 
@@ -26,14 +28,15 @@ The Histogram of gray scale image and color image is shown.
 
 ## Program:
 ```python
-# Developed By: KAMESH R R
-# Register Number: 212223230095
+# Developed By: ASWIN L
+# Register Number: 212224230028
+
 
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv2.imread('Qn4.jpg')
+image = cv2.imread('me.jpg')
 
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
@@ -70,10 +73,14 @@ plt.xlim([0, 256])
 plt.tight_layout()
 plt.show()
 
+
+
+
+
 ```
 ## Output:
-<img width="1020" height="660" alt="image" src="https://github.com/user-attachments/assets/bba06af7-8369-4d8b-80cb-2b3aaddfe5dd" />
 
+<img width="823" height="577" alt="Screenshot 2025-09-22 213612" src="https://github.com/user-attachments/assets/32dd3826-8cf0-47db-ae27-84b5f2f94f1f" />
 
 
 ## Result: 
